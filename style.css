@@ -1,0 +1,191 @@
+/*CSS Reset*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*Main Wrapper that encapsulates rest of blocks on the site*/
+.MainWrapper{
+	width: 970px;
+	
+	background-color: #1e415d;
+	/*This centers the webpage*/
+	margin:	0px auto; 
+}
+
+/*This Contains the header settings*/
+.header{
+padding: 20px;
+width: 950;
+height: 50px;
+display: inline-block;
+}
+img.logo{
+	max-width: 300px;
+	max-height:200px;
+}
+form.formFormat{
+	
+	display: inline-block;
+	vertical-align: middle;
+
+	line-height: 50px;
+	
+
+
+}
+
+.SearchBarWrapper{
+	display: inline-block;
+
+	width: 250px;
+	height: 50px;
+	vertical-align: top;
+	display: inline-block;
+	color: white;
+	margin-left: 410px;
+	 
+}
+.SearchBar{
+	width: 180px;
+	height: 50px;
+	border-radius: 6px;
+	background-color: #1e2a34;
+	vertical-align: middle;
+	display: inline-block;
+	padding-left: 20px;
+
+}
+
+button.buttonFormat{
+	background-color: #1e415d;
+	border: white;
+	border-radius: 4px;
+	color: white;
+	display: inline-block;
+	font-size: 16px;
+
+
+
+}
+
+/*we Will work with the Navigation ToolBar*/
+.NavigationBar{
+	
+	width: 750px;
+	height: 50px;
+	background-color: white;
+	margin-left: 110px;
+	background-color: #3776ab;
+	border-radius: 12px;
+	display: inline-block;
+}
+p.NavContent{
+
+	color: white;
+	display: inline-block;
+	vertical-align: middle;
+	margin-top: 15px;
+	margin-left: 38px;
+	font-size: 20px;
+}
+
+/*The following lines will Style The Navigation List that sits on the left side of the page*/
+.NavigationList{
+	margin-left: 120px;
+	margin-top: 40px;
+	width: 250px;
+	color: white;
+	text-decoration: underline;
+	display: inline-block;
+
+}
+
+
+.MainText{
+	width: 520px;
+	padding-top: 40px;
+	padding-bottom: 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+p.AboutPython{
+
+	color: white;
+
+}
+
+p.PoemPython{
+	text-align: center;
+	margin: 20px;
+	font-size: 20px;
+	font-style:italic;
+	color: yellow;
+}
+p.by{
+	text-align: center;
+	font-size: 20px;
+	color: white;
+}
+
+/*The following CSS will take care of Getting Started and Applications*/
+
+.UseSection{
+	width: 970px;
+	height: 300px;
+	background-color:white;
+	display: inline-block;
+
+}
+.GetItStarted{
+width:400px;
+margin:20px;
+margin-left: 80px;
+border-top:10px  solid #3776ab;
+text-align: center;
+display: inline-block;
+vertical-align: top;
+
+
+}
+
+.AppSection{
+width: 400px;
+margin:20px;
+text-align: center;
+
+border-top: 10px solid #3776ab;
+display: inline-block;
+vertical-align: top;
+}
+
+span.links{
+	color:lightblue;
+}
+
+h2.formath2{
+	font-size: 22px;
+}
+
+/*These will stile the footer items*/
+.footer{
+	width:970px;
+	text-align: center;
+	
+}
+
+p.footeritems{
+
+	color: white;
+	display: inline-block;
+	margin:20px;
+
+}
+p.copyright{
+	color: white;
+	font-size: 10px;
+}
+
+
